@@ -1,23 +1,19 @@
-.imagediv
-{
+.imagediv{
     margin: auto;
     padding-bottom: 15px;
 }
 
-.center
-{
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#header
-{
+#header{
     padding-bottom: 200px;
 }
 
-.formdiv
-{
+.formdiv{
     display: block;
     text-align: center;
 }
@@ -27,8 +23,11 @@ input{
     margin-bottom: 15px;
 }
 
-.submitbutton
-{
+button:hover {
+    border: 1px solid #4d90fe;
+}
+
+.submitbutton{
     height: 36px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -36,4 +35,20 @@ input{
     font-family: arial, sans-serif;
     padding: 0px 16px 0px 16px;
     margin: 0px 4px 0px 4px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+li{
+    display: inline;
+    float: right;
+    margin: 0px 5px 0px 5px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 }
