@@ -62,14 +62,14 @@ div.header li {
 
 ul.left li {
     display: inline;
-    float: left;
+    /*float: left;*/
     margin: 0px 5px 0px 5px;
     font-family: arial, sans-serif;
 }
 
 ul.right li {
     display: inline;
-    float: right;
+    /*float: right;*/
     margin: 0px 5px 0px 5px;
     font-family: arial, sans-serif;
 }
@@ -103,9 +103,15 @@ ul.right li {
 }
 
 #footer2 {
+    display: flex;
+    justify-content: space-between;
     height: 40px;
+    padding-left: 27px;
     line-height: 40px; 
-    margin-left: -20px;
-    border: 1px solid black;
 }
  
+ul {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
