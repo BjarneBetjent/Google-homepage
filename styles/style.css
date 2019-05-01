@@ -1,19 +1,25 @@
-.imagediv{
+.imagediv {
     margin: auto;
     padding-bottom: 15px;
 }
 
-.center{
+body {
+    font-family: arial,sans-serif;
+}
+.litest {
+
+}
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#header{
+.header {
     padding-bottom: 200px;
 }
 
-.formdiv{
+.formdiv {
     display: block;
     text-align: center;
 }
@@ -27,7 +33,7 @@ button:hover {
     border: 1px solid #4d90fe;
 }
 
-.submitbutton{
+.submitbutton {
     height: 36px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -35,20 +41,70 @@ button:hover {
     font-family: arial, sans-serif;
     padding: 0px 16px 0px 16px;
     margin: 0px 4px 0px 4px;
+    border-radius: 5px;
 }
 
-li a{
+li a {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
 }
-li a:hover{
+li a:hover {
     text-decoration: underline;
 }
 
-li{
+div.header li {
     display: inline;
     float: right;
     margin: 0px 5px 0px 5px;
     font-family: arial, sans-serif;
     font-size: 13px;
 }
+
+ul.left li {
+    display: inline;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    font-family: arial, sans-serif;
+}
+
+ul.right li {
+    display: inline;
+    float: right;
+    margin: 0px 5px 0px 5px;
+    font-family: arial, sans-serif;
+}
+
+.right {
+
+}
+
+.left {
+
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f7f9ff;
+    text-align: center;
+    height: 80px; 
+    font-size: 10pt;       
+}
+
+#footer1 {    
+    text-align: left;
+    height: 40px;
+    line-height: 40px;    
+    padding-left: 27px;
+    border-top: 1px solid #d5dded;
+    border-bottom: 1px solid #d5dded;   
+}
+
+#footer2 {
+    height: 40px;
+    padding-left: 27px;
+    line-height: 40px; 
+}
+ 
